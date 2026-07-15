@@ -73,7 +73,7 @@ The experimental measurement system consisted of a USRP B210 software-defined ra
 
 A custom Python application was developed to collect and manage field measurement data, including GPS coordinates, RSSI values and additional information required during the measurement campaign.
 
-![Application Interface](images/app interfata.jpg)
+![Application Interface](images/app%20interfata.jpg)
 
 ---
 
@@ -103,7 +103,7 @@ Coverage predictions were generated using HTZ Communications based on the ITU-R 
 
 The simulated signal levels were compared with the field measurements to evaluate the accuracy of the propagation model.
 
-![Correlation Graph](images/corelatie 1812 urban.jpg)
+![Correlation Graph](images/corelatie%201812%20urban.jpg)
 
 ## About
 
