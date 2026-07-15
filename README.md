@@ -61,7 +61,49 @@ Contains additional project documentation.
 - GPS module for location acquisition.
 - Experimental measurement system based on SDR.
 
+## Experimental Setup
 
+The experimental measurement system consisted of a USRP B210 software-defined radio receiver, a GPS receiver and a laptop running GNU Radio and Python applications.
+
+![Experimental Setup](images/SET-UP.jpg)
+
+---
+
+## Data Collection Application
+
+A custom Python application was developed to collect and manage field measurement data, including GPS coordinates, RSSI values and additional information required during the measurement campaign.
+
+![Application Interface](images/app interfata.jpg)
+
+---
+
+## GNU Radio Flowgraph
+
+The signal processing chain was implemented in GNU Radio. A custom Python block was developed for RSSI calculation and integrated into the flowgraph.
+
+![GNU Radio Flowgraph](images/gnu_blocuri.jpg)
+
+---
+
+## Radio Coverage Simulation
+
+Coverage predictions were generated using HTZ Communications based on the ITU-R P.1812 propagation model.
+
+### Urban Scenario
+
+![Urban Coverage](images/harta urban 1812.jpg)
+
+### Rural Scenario
+
+![Rural Coverage](images/Sim_rural_1812.jpg)
+
+---
+
+## Simulation vs. Measurements
+
+The simulated signal levels were compared with the field measurements to evaluate the accuracy of the propagation model.
+
+![Correlation Graph](images/corelatie 1812 urban.jpg)
 
 ## About
 
