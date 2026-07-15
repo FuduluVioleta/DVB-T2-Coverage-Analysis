@@ -91,7 +91,7 @@ Coverage predictions were generated using HTZ Communications based on the ITU-R 
 
 ### Urban Scenario
 
-![Urban Coverage](images/harta urban 1812.jpg)
+![Urban Coverage](images/harta%20urban%201812.jpg)
 
 ### Rural Scenario
 
