@@ -23,7 +23,7 @@ The collected measurements were processed and compared with the simulation resul
 - Python
 - GNU Radio
 - USRP B210
-- GPS Receiver
+- GPS 
 - HTZ Communications
 - DVB-T2
 
